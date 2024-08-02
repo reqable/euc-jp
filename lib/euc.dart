@@ -57,6 +57,9 @@ class EucJPEncoder extends Converter<String, List<int>> {
 }
 
 class EucJP extends Encoding {
+
+  const EucJP();
+
   @override
   Converter<List<int>, String> get decoder => EucJPDecoder();
 

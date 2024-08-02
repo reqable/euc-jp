@@ -62,6 +62,9 @@ class JISEncoder extends Converter<String, List<int>> {
 }
 
 class ShiftJIS extends Encoding {
+
+  const ShiftJIS();
+
   @override
   Converter<List<int>, String> get decoder => JISDecoder();
 
